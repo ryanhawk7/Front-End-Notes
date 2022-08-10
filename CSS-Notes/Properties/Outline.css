@@ -1,0 +1,29 @@
+/***********************************************************/
+/* Outline                                                 */
+/***********************************************************/
+
+
+/* Outline is drawn outside of border to help the element stand out
+
+   ______________________________________________________   
+  |************************Outline***********************|  
+  |*  ________________________________________________  *|  
+  |* |                     Border                     | *|  
+  |* |   __________________________________________   | *|  
+  |* |  |                                          |  | *|  
+  |* |  |                  Content                 |  | *|  
+  |* |  |__________________________________________|  | *|  
+  |* |________________________________________________| *|  
+  |******************************************************|  
+  |______________________________________________________|  
+
+*/
+
+div {
+  outline-style: solid; /* none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit */
+  outline-color: red; /* invert|color|initial|inherit */
+  outline-width: thin; /* medium|thin|thick|length|initial|inherit */
+
+  /* shorthand */
+  outline: 5px solid yellow;
+}

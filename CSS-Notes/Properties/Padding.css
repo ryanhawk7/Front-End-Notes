@@ -1,0 +1,15 @@
+/***********************************************************/
+/* Padding                                                 */
+/***********************************************************/
+
+div {
+  padding-top: 50px; /* length|auto|initial|inherit */
+  padding-right: 30px; /* length|auto|initial|inherit */
+  padding-bottom: 50px; /* length|auto|initial|inherit */
+  padding-left: 80px; /* length|auto|initial|inherit */
+
+  padding: 25px 50px 75px 100px; /* top - right - bottom - left */
+  padding: 25px 50px 75px; /* top - right&left - bottom */
+  padding: 25px 50px; /* top&bottom - right&left */
+  padding: 25px; /* all sides */
+}

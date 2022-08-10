@@ -1,0 +1,15 @@
+/***********************************************************/
+/* Fonts                                                   */
+/***********************************************************/
+
+div {
+  font: italic small-caps bold 12px/30px Georgia, serif; 
+  /* font-style font-variant font-weight font-size/line-height 
+  font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit */
+
+  font-family: "Times New Roman", Times, serif; /* family-name|generic-family|initial|inherit */
+  font-size: 15px; /* medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit */
+  font-stretch: expanded; /* ultra-condensed|extra-condensed|condensed|semi-condensed|normal|semi-expanded|expanded|extra-expanded|ultra-expanded|initial|inherit */
+  font-style: oblique; /* normal|italic|oblique|initial|inherit */
+  font-weight: 900; /* normal|bold|bolder|lighter|number|initial|inherit */
+}

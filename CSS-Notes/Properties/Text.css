@@ -1,0 +1,20 @@
+/***********************************************************/
+/* Text                                                    */
+/***********************************************************/
+
+div {
+  text-align: center; /* left|right|center|justify|initial|inherit */
+  text-align-last: auto; /* left|right|center|justify|start|end|initial|inherit */
+
+  text-decoration: underline overline dotted red;
+  text-decoration-line: overline underline; /* none|underline|overline|line-through|initial|inherit */
+  text-decoration-color: red; /* color|initial|inherit */
+  text-decoration-style: wavy; /*solid|double|dotted|dashed|wavy|initial|inherit */
+  text-decoration-thickness: 50%; /* auto|from-font|length/percentage|initial|inherit */
+
+  text-indent: -2em; /* length|initial|inherit */
+  text-justify: inter-word; /* auto|inter-word|inter-character|none|initial|inherit */
+  text-overflow: ellipsis; /* clip|ellipsis|string|initial|inherit */
+  text-shadow: 2px 2px #ff0000; /* h-shadow v-shadow blur-radius color|none|initial|inherit */
+  text-transform: uppercase; /* none|capitalize|uppercase|lowercase|initial|inherit */
+}

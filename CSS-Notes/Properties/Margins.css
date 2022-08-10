@@ -1,0 +1,16 @@
+/***********************************************************/
+/* Margins                                                 */
+/***********************************************************/
+
+div {
+  margin-top: 100px; /* length|auto|initial|inherit */
+  margin-bottom: 100px; /* length|auto|initial|inherit */
+  margin-right: 150px; /* length|auto|initial|inherit */
+  margin-left: 80px; /* length|auto|initial|inherit */
+
+  /* shorthand */
+  margin: 25px 50px 75px 100px; /* top - right - bottom - left */
+  margin: 25px 50px 75px; /* top - right&left - bottom */
+  margin: 25px 50px; /* top&bottom - right&left */
+  margin: 25px; /* all sides */
+}

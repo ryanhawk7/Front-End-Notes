@@ -1,0 +1,15 @@
+/***********************************************************/
+/* Backgrounds                                             */
+/***********************************************************/
+
+div {
+  background: rgba(0, 128, 0, 0.3); /* Green background with 30% opacity */ /* color|transparent|initial|inherit */
+  background-image: url("paper.gif"); /* url|none|initial|inherit */
+  background-repeat: no-repeat; /* repeat|repeat-x|repeat-y|no-repeat|initial|inherit */
+  background-position: right top; /* left top | left center | left bottom | right top | right center |
+  right bottom | center top | center center | center bottom  | x% y% | xpos ypos | initial | inherit   */
+  background-attachment: fixed; /*  scroll|fixed|local|initial|inherit  */
+
+  /* Shorthand */
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}

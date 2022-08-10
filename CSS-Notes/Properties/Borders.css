@@ -1,0 +1,21 @@
+/***********************************************************/
+/* Borders                                                 */
+/***********************************************************/
+
+div {
+  border-style: solid; /* none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit */
+  border-width: 5px; /* medium|thin|thick|length|initial|inherit */
+  border-color:  red; /* color|transparent|initial|inherit */
+  
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;   /* none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit */
+    
+  border-radius: 2px; /*1-4 length|% / 1-4 length|%|initial|inherit; */
+
+  /* Shorthand */
+  border-bottom: 6px solid red; 
+
+        /* */
+}
